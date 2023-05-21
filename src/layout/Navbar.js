@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 export default function Navbar() {
     return (
@@ -8,7 +8,7 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        Full Stack Application
+                        Student Management System
                     </a>
                     <button
                         className="navbar-toggler"
@@ -22,8 +22,10 @@ export default function Navbar() {
                         <span className="navbar-toggler-icon" />
                     </button>
                 </div>
-                <Link className="btn btn-light btn-sm " type="submit" to="/adduser">Add User</Link>
+                {/* <Link className="btn btn-light btn-sm " type="submit" to="/adduser">Add User</Link> */}
             </nav>
+
+            
 
 
 

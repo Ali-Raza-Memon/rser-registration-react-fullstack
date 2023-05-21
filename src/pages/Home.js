@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -18,6 +19,8 @@ export default function Home() {
     return (
         <div className='container'>
             <div className='py-4'>
+                
+            <Link className='btn btn-primary btn-lg btn-lg mb-2' type='submit' to='/adduser'> Add User </Link>
 
                 <table className="table border shadow">
                     <thead>
